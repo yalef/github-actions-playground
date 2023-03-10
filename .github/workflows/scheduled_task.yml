@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: Do some work
         run: echo test!!!
-      - name: Get CODEOWNERS
-        run: cat ${{CODEOWNERS}}
+      - name: Get ls
+        run: ls -A
